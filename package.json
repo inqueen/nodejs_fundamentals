@@ -1,10 +1,11 @@
 {
   "name": "nodejs_fundamentals",
+  "type": "module",
   "version": "1.0.0",
   "description": "Rocketseat Course - NodeJs Fundamentals [2024 - November]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
